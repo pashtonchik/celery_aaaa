@@ -6,5 +6,5 @@ from test_app.api import aaa
 router = routers.DefaultRouter()
 
 urlpatterns = [
-    path('api/v2/client/auth/', aaa)
+    path('api/test/task/', aaa)
 ]
